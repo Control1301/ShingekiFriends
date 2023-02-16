@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+	body {
+	text-align: center;
+	font-family: OpenSans; 
+	}
+	.Canelita{
+
+		color:#62B7FF;
+		font-size: 40px;
+	}
+
+	div.galeria{
+		margin: 100px 20px;
+		box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+		float: left;
+		width: 200px;
+	}
+	div.galeria img{
+		width: 100%;
+		height: auto;
+	}
+	div.galeria:hover{
+		border: 1px solid lightcoral;
+		transform: rotate(-3deg);
+	}
+	div.pie{
+		text-align: center;
+		text-shadow: 2px 2px 5px purple;
+		padding: 10px;
+		}  
+
+		.volver{
+		background: pink;
+		background-position: center;
+		width: auto;
+		margin: 3px auto;
+		display: center;
+		align-items: center;
+		border: 2px solid black;
+		font-size: 30px;
+		border-radius: 10px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+		top:0;
+		}
+		.volver > a{
+		display: inline-block;
+		padding: 5px 5px;
+		color: #353535;
+		text-decoration: none;
+		font-weight: bold;
+		}
+		.volver > a:hover{
+		transition: all 0.5s ease;
+		padding: 5px 10px;
+		background: #fff000;
+		color: #000;
+		}
