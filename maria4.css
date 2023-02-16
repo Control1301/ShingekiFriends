@@ -1,0 +1,165 @@
+*{
+		margin: 0;
+		padding: 0;
+		}
+		body {
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+		background-repeat: no-repeat;	
+		background-size: cover;
+		background-attachment: fixed; 
+		background-position: center;
+		}
+
+		/*-------------------------------- Menu ----------------------------*/		
+		.menu {	
+		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+		background-position: center;
+		width: auto;
+		margin: 3px auto;
+		display: center;
+		align-items: center;
+		border: 2px solid black;
+		font-size: 30px;
+		border-radius: 10px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+		top:0;
+		position: sticky;
+		}
+		.menu > a{
+		position: relative;
+		display: inline-block;
+		padding: 5px 5px;
+		color: #667eea;
+		text-decoration: none;
+		font-weight: bold;
+		}
+		.menu > a:hover{
+		transition: all 0.5s ease;
+		padding: 5px 10px;
+		background: #82E0AA;
+		color: #000;
+		}
+
+		.Siguiente{
+		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+		background-position: center;
+		width: 100px 50px;
+	
+		display: center;
+		align-items: center;
+		border: 2px solid black;
+		font-size: 30px;
+		border-radius: 10px;
+		box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+		top:0;
+		margin: 100px 300px;
+		
+		}
+		.Siguiente > a{
+		
+		display: inline-block;
+		padding: 5px 5px;
+		color: #353535;
+		text-decoration: none;
+		font-weight: bold;
+		}
+		.Siguiente > a:hover{
+		transition: all 0.5s ease;
+		padding: 5px 10px;
+		background: #fff000;
+		color: #000;
+
+		}
+
+		/*-------------------------------- Fin Menu ----------------------------*/	
+		.linea{
+		width: 80%;
+		margin: 3px auto;
+		height: 3px;
+		background: #fff;
+		margin-bottom: 60px;			
+			}
+		/*-------------------------------- Contenedor ----------------------------*/
+
+		.contenedor{
+		text-align: center;
+		border: 3px solid blue;
+		padding: auto; 
+		width: 98%;
+		height: auto;
+		max-width: auto;
+		overflow: hidden;
+		background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+		border-radius: 2px;
+		
+		}
+		/*-------------------------------- Fin Contenedor ----------------------------*/
+		.galeria{
+		margin: 100px 20px;
+		box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+		float: left;
+		width: auto;
+		height: auto;
+		}
+		.foto1{ 	
+		width: 200px;
+		height: 350px;
+		object-fit: cover;
+		}
+		.pie{
+		background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);		text-align: center;
+		text-shadow: 2px 2px 5px purple;
+		padding: 10px;
+		}
+
+		.texto1{
+		font-family: "Mystery Quest";
+		font-size: 20px;
+		}
+
+	
+		/*-------------------------------- Fin Contenedor ----------------------------*/
+
+
+		/*-------------------------------- Redes Sociales ----------------------------*/
+		.Redes
+		{
+		background-image: auto;
+		padding: 10px;
+		margin: auto; 
+		font-weight: bold;
+		text-align: center;
+		border-radius: 10px;
+		}
+		.Redes1{
+			font-family: "Mystery Quest";
+			font-size: 20px;
+		}
+		.social{
+		width: 100%;
+		justify-content: flex-end;
+		}
+		.social-media-icon{
+		display: inline-block;
+		margin-left: 20px;
+		width: 60px;
+		height: 60px;
+		border: 2px solid white;
+		border-radius: 50%;
+		text-align: center;
+		color: #FFF;
+		margin: auto; 
+		}
+		.social-media-icon:hover{
+		background: #fff;
+		background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+
+		}
+		.social-media-icon i{
+		font-size: 30px;
+		line-height: 60px;	
+		}
+		/*-------------------------------- Fin Redes Sociales ----------------------------*/
+
