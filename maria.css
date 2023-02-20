@@ -97,10 +97,6 @@
 		width: auto;
 		height: auto;
 		}
-		.galeria:hover{
-		filter: blur(2px);
-		transform: rotate(10deg) scale(1.1);
-		}
 		.foto1{ 	
 		width: 200px;
 		height: 350px;
